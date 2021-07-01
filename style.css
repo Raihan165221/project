@@ -1,0 +1,875 @@
+
+section.menu_bar{
+	overflow: hidden;
+	font-family: 'Poppins', sans-serif;
+	font-weight:400;
+}
+
+
+.menu_bar .menu_heading{
+	text-align: center;
+}
+
+
+.menu_bar .menu_items{
+
+}
+
+
+.menu_bar .menu_items a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px;
+	color: black;
+	transition: 0.35s;
+}
+
+
+.menu_bar .menu_items a:hover{
+	color: #32a0e1;
+}
+
+
+.menu_bar .menu_items a:nth-child(4){
+	color:#6E95FB;
+	border:1px solid #6E95FB;
+	padding: 6px 14px;
+	border-radius: 40px;
+	transition: 0.35s;
+}
+
+
+.menu_bar .menu_items a:nth-child(4):hover{
+	color: white;
+	background: #6E95FB;
+	box-shadow: 2px 0px 5px gray;
+}
+
+
+
+section.about_me{
+	overflow: hidden;
+}
+
+
+.about_me .img_side{
+
+}
+
+
+.about_me .img_side img{
+	height: 350px;
+	width: 800px;
+
+}
+
+.about_me .my_details{
+	
+}
+
+.about_me .my_details h3{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+
+}
+
+
+
+
+.about_me .my_details h1{
+	width: 56%;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+
+.about_me .my_details p{
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+.about_me .my_details a{
+	color: white;
+	background: #558EFF;
+	padding: 10px 20px;
+	border-radius: 40px;
+	text-decoration: none;
+	margin-top: 15px;
+	display: inline-block;
+	transition: 0.40s;
+	box-shadow: 2px 0px 5px gray;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+
+.about_me .my_details a:hover{
+	color: black;
+	background: none;
+	border:1px solid #558EFF;
+}
+
+
+
+
+section.service_side{
+	position: relative;
+	margin-top: 90px;
+	height: 80vh;
+
+}
+
+
+.service_side .service_heading{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.service_side .service_heading h2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+
+
+.service_side .all_service{
+	width: 100%;
+	position: absolute;
+	left: 9%;
+	margin-bottom: 150px;
+
+}
+
+
+.service_side .some_service{
+	position: relative;
+	text-align: center;
+	width: 22%;
+	margin-left: 10px;
+	padding:25px;
+	transition: 0.40s;
+	cursor: pointer;
+
+}
+
+
+.service_side .some_service:hover{
+	background: #d9c8cb;
+	color: white;
+}
+
+
+.service_side .some_service:after{
+	position: absolute;
+	content: "";
+	height: 2px;
+	top: 47%;
+	left: 37%;
+	width: 0%;
+	background:white;
+	transition: 1s;
+
+
+}
+
+
+.service_side .some_service:hover:after{
+	width: 25%;
+}
+
+
+
+
+
+.service_side .some_service img{
+	height: 50px;
+	width: 50px;
+
+}
+
+
+
+.service_side .some_service h3{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+
+}
+
+
+.service_side .some_service p{
+	margin:35px 0;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+
+section.gallery{
+	width: 100%;
+	position: relative;
+	height: 100vh !important;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+
+.gallery .gallery_heading{
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+
+.gallery .gallery_heading h2{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+.gallery .all_pic{
+	width: 80%;
+	position: absolute;
+	left: 9%;
+
+}
+
+.gallery .all_pic .picture{
+	width: 30%;
+	height: 220px;
+	overflow: hidden;
+	float: left;
+	margin-right: 22px;
+	margin-top: 20px;
+	position: relative;
+}
+
+
+.gallery .all_pic .picture img{
+	width: 100%;
+	height: 220px;
+
+	
+	
+}
+
+.hover_text p{
+	margin-top: 70px;
+	font-family: "Poppins",sans-serif;
+}
+
+
+.gallery .all_pic .hover_text{
+	position: absolute;
+	width: 100%;
+	bottom: 100%;
+	color: white;
+	text-align: center;
+
+}
+
+.gallery .all_pic .picture:hover .hover_text{
+	height: 100%;
+	bottom: 0;
+	background: blue;
+	transition: 1s;
+	opacity: 0.5;
+}
+
+
+
+
+
+section.some_text{
+	margin-left: 100px;
+	height: 40vh;
+}
+
+
+.some_text .text_left_side{
+		
+}
+
+
+.some_text .text_left_side h1{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
+
+
+.some_text .text_left_side p{
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+.some_text .text_right_side{
+	text-align: center;
+
+}
+
+
+.some_text .text_right_side a{
+	display: inline-block;
+	margin-top: 60px;
+	border:1px solid blue;
+	padding:7px 18px;
+	text-decoration: none;
+	color: blue;
+	border-radius: 40px;
+	transition: 0.40s;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+
+}
+
+
+.some_text .text_right_side a:hover{
+	color: white;
+	background:blue;
+}
+
+
+
+section.some_details{
+	text-align: center;
+}
+
+
+
+.some_details .some_text_heading{
+
+}
+
+
+.some_details .some_text_heading h1{
+	width: 25%;
+	margin:0 auto;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+
+}
+
+
+
+.some_details .some_img_text{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+.some_details .some_img_text h4,h5{
+	margin:0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+
+.some_details .some_text{
+
+}
+
+
+
+.some_details .some_text p{
+	width: 80%;
+	margin:0 auto;
+	margin-bottom: 150px;
+	margin-top: 50px;
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+
+section.footer{
+
+}
+
+
+.footer .last_menu_bar{
+	text-align: center;
+}
+
+
+.footer .last_menu_bar a{
+	color: black;
+	text-decoration: none;
+	padding: 10px 18px;
+	display: inline-block;
+	transition: 0.4s;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+.footer .last_menu_bar a:hover{
+	color: blue;
+}
+
+
+.footer .last_menu_bar input[type="search"]{
+	border-radius: 40px;
+	padding: 8px 15px;
+	border:none;
+	box-shadow: 2px 0px 5px gray;
+	margin-left: 50px;
+	transition: 0.4s;
+	cursor: pointer;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+
+}
+
+
+.footer .last_menu_bar input[type="search"]:hover{
+	background: #c8c8c8;
+
+}
+
+.footer .icons{
+	margin-top: 40px;
+	margin-left: 300px;
+	overflow: hidden;
+}
+
+.footer .icons h1{
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-radius: 100%;
+	padding: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.4s;
+	box-shadow: 2px 0px 5px gray;
+	margin-bottom: 80px;
+
+}
+
+.footer .icons h1:hover{
+	background: cadetblue;
+}
+
+
+
+.footer .copyright{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+.footer .copyright p{
+	text-align: center;
+}
+
+
+.footer .copyright span{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1050px){
+	section.gallery {
+	width: 100%;
+	position: relative;
+	height: 140vh !important;
+	overflow: hidden;
+}
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 993px){
+	.gallery .all_pic img {
+	width: 250px;
+	
+}
+
+
+.gallery .gallery_heading{
+	margin-top: 170px;
+}
+
+	section.gallery {
+	width: 100%;
+	position: relative;
+	height: 180vh !important;
+	overflow: hidden;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 978px){
+	.some_details .some_text_heading h1 {
+	width: 27%;
+	
+}
+
+	section.some_text {
+	margin-left: 100px;
+	height: 55vh;
+}
+
+	.footer .icons{
+		margin-left: 275px;
+	}
+
+
+}
+
+
+@media only screen and (max-width: 934px){
+	.gallery .all_pic img{
+		width: 235px;
+	}
+
+	.footer .icons {
+	margin-left: 245px;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 908px){
+	.some_details .some_text_heading h1 {
+	width: 30%;
+}
+
+	.footer .icons {
+	margin-left: 220px;
+}
+
+}
+
+
+@media only screen and (max-width: 880px){
+		.gallery .all_pic img {
+	width: 220px;
+}
+
+	.service_side .all_service{
+		left: 7%;
+	}
+
+	.footer .icons {
+	margin-left: 210px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 827px){
+	.gallery .all_pic img {
+	width: 210px;
+}
+
+	.footer .icons {
+	margin-left: 195px;
+}
+
+}
+
+
+@media only screen and (max-width: 819px){
+	.some_details .some_text_heading h1 {
+	width: 33%;
+}
+
+.about_me .my_details h1 {
+	width: 80%;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+	.footer .icons h1{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.footer .icons {
+	margin-left: 270px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 795px){
+	.gallery .all_pic img {
+	width: 200px;
+}
+
+	.service_side .all_service{
+		left: 5%;
+	}
+
+	.about_me .my_details {
+	font-size: 15px;
+	margin-left: 12px;
+}
+
+	.footer .icons {
+	margin-left: 245px;
+}
+
+
+}
+
+
+@media only screen and (max-width: 763px){
+	.menu_bar .menu_items {
+	text-align: center;
+}
+
+	section.menu_bar{
+		margin-left: 20px;
+		margin-bottom: 50px;
+	}
+
+
+	.about_me .my_details {
+	font-size: 17px;
+	margin-left: 40px;
+	margin-right: 25px;
+}
+
+	section.some_text {
+	margin-left: 100px;
+	height: 75vh;
+}
+
+	.footer .icons {
+	margin-left: 225px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 760px){
+	.gallery .all_pic img {
+	width: 285px;
+}
+
+	section.gallery {
+		width: 100%;
+		position: relative;
+		height: 230vh !important;
+		overflow: hidden;
+}
+
+
+}
+
+
+@media only screen and (max-width: 746px){
+	.some_details .some_text_heading h1 {
+	width: 36%;
+}
+
+}
+
+
+@media only screen and (max-width: 711px){
+	.gallery .all_pic img {
+	width: 275px;
+}
+
+	.service_side .all_service{
+		left: 4%;
+	}
+
+	
+
+	.footer .last_menu_bar input[type="search"]{
+		margin-left: 15px;
+	}
+
+	.footer .icons {
+	margin-left: 210px;
+}
+
+}
+
+
+
+	
+
+@media only screen and (max-width: 687px){
+	.gallery .all_pic img {
+	width: 265px;
+}
+
+	.some_details .some_text_heading h1 {
+	width: 40%;
+}
+	
+
+}
+
+
+@media only screen and (max-width: 676px){
+		.footer .last_menu_bar a{
+		margin-bottom: 20px;
+	}
+
+}
+	
+
+
+@media only screen and (max-width: 664px){
+	.gallery .all_pic img {
+	width: 254px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 638px){
+	.gallery .all_pic img {
+	width: 244px;
+}
+
+	.service_side .some_service{
+		width: 36%;
+	}
+
+	section.service_side {
+	position: relative;
+	margin-top: 90px;
+	height: 125vh;
+}
+
+	.footer .icons {
+	margin-left: 193px;
+}
+
+}
+
+
+@media only screen and (max-width: 618px){
+	.some_details .some_text_heading h1 {
+	width: 44%;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 614px){
+	.gallery .all_pic img {
+	width: 232px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 586px){
+	.gallery .all_pic img {
+	width: 223px;
+}
+
+	.footer .icons {
+	margin-left: 165px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 565px){
+	.gallery .all_pic img {
+	width: 213px;
+}
+
+	.some_details .some_text_heading h1 {
+	width: 49%;
+}
+
+}
+
+
+
+@media only screen and (max-width: 540px){
+	section.gallery {
+	width: 100%;
+	position: relative;
+	height: 320vh !important;
+	overflow: hidden;
+}
+
+	.gallery .all_pic img {
+	width: 405px;
+}
+
+	.footer .icons {
+	margin-left: 135px;
+}
+
+}
+
+
+@media only screen and (max-width: 520px){
+.service_side .some_service {
+	width: 34%;
+}
+
+	.about_me .my_details {
+	font-size: 17px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 505px){
+	.gallery .all_pic {
+	width: 85%;
+	position: absolute;
+	left: 8%;
+}
+
+	.service_side .some_service {
+	width: 80%;
+}
+
+	section.service_side {
+	position: relative;
+	margin-top: 90px;
+	height: 175vh;
+}
+
+}
+
+
+@media only screen and (max-width: 490px){
+		.gallery .all_pic {
+	width: 85%;
+	position: absolute;
+	left: 5%;
+}
+
+}
